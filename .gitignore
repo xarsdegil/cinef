@@ -1,3 +1,11 @@
-/node_modules/
-/lib/
+node_modules
+.next
+out
+styled-system
+coverage
+.env
+.env.local
+prisma/dev.db
+prisma/dev.db-journal
+lib
 .bsb.lock

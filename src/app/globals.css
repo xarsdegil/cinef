@@ -1,0 +1,21 @@
+@layer reset, base, tokens, recipes, utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), serif;
+}

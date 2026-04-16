@@ -1,0 +1,39 @@
+{
+  "name": "cinef",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cinematic film club platform scaffold built with Next.js, Park UI, Panda CSS, Prisma, and Zod.",
+  "scripts": {
+    "dev": "panda codegen --clean && next dev",
+    "build": "panda codegen --clean && next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "db:generate": "prisma generate",
+    "db:push": "node scripts/db-push.mjs",
+    "db:seed": "tsx prisma/seed.ts",
+    "postinstall": "panda codegen"
+  },
+  "dependencies": {
+    "@ark-ui/react": "^5.36.1",
+    "@prisma/client": "^6.19.3",
+    "lucide-react": "^1.8.0",
+    "next": "^16.2.4",
+    "next-themes": "^0.4.6",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^1.9.1",
+    "@pandacss/postcss": "^1.9.1",
+    "@park-ui/cli": "^1.0.1",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "prisma": "^6.19.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
